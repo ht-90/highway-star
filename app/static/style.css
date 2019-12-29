@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+    .left-pane {
+        grid-column: 1;
+        height: 800px;
+        display: grid;
+        grid-template-rows: 600px 200px;
+    }
+        .control {
+            background-color: rgb(70, 190, 210);
+        }
+        .footer {
+            background-color: rgb(50, 50, 40);
+            color: rgba(210, 220, 220)
+        }
+
+    .content {
+        grid-column: 2;
+        background-color: rgb(165, 160, 155);
+        height: 800px;
+    }
+
+    img {
+        height: 350px;
+        width: 350px;
+        padding: 30px;
+        margin: 20px;
+    }
